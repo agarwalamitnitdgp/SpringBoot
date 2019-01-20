@@ -1,0 +1,11 @@
+pageController:
+  msg: "Hello from application.properties files"
+  foo: "Hello from application.properties file foo"
+  longMsg: "Hello from application.properties file longMsg"
+  
+myconfig:
+  app-name: My Application Name
+  app-description: ${myconfig.app-name} is a Spring Boot Application
+  admin-first-name: Amit
+  admin-last-name: Agarwal
+  adminEmail: amitagarwal@gmail.com
